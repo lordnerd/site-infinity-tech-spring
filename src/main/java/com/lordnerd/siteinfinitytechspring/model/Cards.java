@@ -63,7 +63,7 @@ public class Cards {
 
     @NotNull
     @NotBlank
-    @Length(min = 5, max = 100)
+    @Length(max = 10)
     @Pattern(regexp = "Ativo|Inativo")
     @Column(length = 10, nullable = false)
     private String status = "Ativo";
